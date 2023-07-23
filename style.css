@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    display:flex;
+    height: 67px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar li{
+    list-style:none;
+    margin: 0 12px;
+
+}
+.topleft{
+    width: 50%;
+    
+    padding: 12px ,0;
+}
+.topright{
+    width:50%;
+    
+}
+.section1{
+    max-height: 100vh;
+    
+
+}
+.section1 h1{
+    font-size:2rem;
+}
+.logo{
+    font-size: 1.3rem;
+}
+.section2{
+    padding:73px;
+}
+.section2 h1{
+    font-size:3 rem;
+}
+.section2 p{
+    padding: 0, 8vw;
+    text-align:center;
+
+}
+.box{
+    padding: 8px, 0px;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid salmon ;
+    text-align:center;
+    border-radius: 8px;
+}
+.box ul{
+    list-style-type:none;
+}
+.box ul li{
+margin: 12px 2px;
+}
+.box h2{
+    font-size: 2 rem;
+    padding: 15px, 0;
+}
+.highligthed{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.plantable{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.section3 table{
+   width:100%;
+   margin-bottom: 130px,0;
+   margin-top:20px;
+   border-collapse: collapse;
+
+}
+.section3 table th{
+    width:23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+
+.section3 h1{
+    font-size:2.3 rem;
+
+}
+.section3{
+    padding:73px;
+
+}
+
+footer{
+padding:0;
+margin:0;
+box-sizing:border-box;
+text-align:center;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+/* Add space between the "Opening Hours" section and the "Copyright" line */
+.footer-section.opening-hours {
+    margin-bottom: 50px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid whitesmoke;
+}
+.social-media-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Style the Font Awesome icons */
+.social-media-icons i {
+    font-size: 30px;
+    color: #fff;
+}
+.services-section {
+    background-color:white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service {
+    position: relative;
+    width: 300px;
+    background-color: wheat;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+/* Add a transform to pop out the service card on hover */
+.service:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.service img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.service h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.trainer-profiles-section {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.trainer-profiles-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.trainer-profile {
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.trainer-profile img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.trainer-profile h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
