@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Lumanosimo', cursive;
+  background-color: white;
+}
+
+.container {
+  background-color:yellow;
+  border-radius: 15px;
+  padding: 20px;
+  width: 320px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: green;
+  border:#333333;
+  border-radius: 9px;
+  padding: 20px;
+  margin: 0 3px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  background-color: #16a085;
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.button.operator {
+  background-color: #e74c3c;
+}
+
+.button.special {
+  background-color: #bdc3c7;
+  color: #333333;
+}
+
+.row {
+  margin: 8px 0;
+}
+
+.row input {
+  width: 291px;
+  font-size: 24px;
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid #cccccc;
+  border-radius: 5px;
+  text-align: right;
+}
